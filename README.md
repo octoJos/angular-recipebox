@@ -1,2 +1,2 @@
 # angular-recipebox
-A RecipeBox built in AngularJS.
+A RecipeBox built in AngularJS using localstorage to store the recipes.
