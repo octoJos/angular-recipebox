@@ -1,0 +1,48 @@
+/* Most of the CSS is done by Materialize, these are just some customizations */
+@import 'https://fonts.googleapis.com/icon?family=Material+Icons';
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
+
+body {
+ background-color: #eeeeee;
+ font-family: 'Cutive Mono', monospace;
+ font-size: 16px
+}
+
+
+.collapsible-body {
+ height: 200px;
+ position: relative;
+}
+
+.buttonsbox {
+ position: absolute;
+ bottom: 20px;
+ right: 20px;
+}
+
+/* Changing the color of the placeholder text */
+::-webkit-input-placeholder {
+ /* Chrome/Opera/Safari */
+ color: black;
+}
+
+::-moz-placeholder {
+ /* Firefox 19+ */
+ color: black;
+}
+
+:-ms-input-placeholder {
+ /* IE 10+ */
+ color: black;
+}
+
+:-moz-placeholder {
+ /* Firefox 18- */
+ color: black;
+}
+
+/* Override the Materialize green on input focus */
+.input-field input[type=text]:focus {
+ border-bottom: 1px solid #000;
+ box-shadow: 0 1px 0 0 #000;
+}
